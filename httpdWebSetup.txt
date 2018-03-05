@@ -1,0 +1,9 @@
+#!/bin/bash
+yum install httpd -y
+yum update -y
+aws s3 cp s3://myworkwelcome20171212/Websites/web.tar.gz /home/ec2-user/
+cd /home/ec2-user/
+tar vxf web.tar.gz .
+cp /home/ec2-user/web1/*.* /var/www/html/
+service httpd start
+chkconfig httpd on
