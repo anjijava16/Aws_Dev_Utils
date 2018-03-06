@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su -
 yum install httpd -y
 yum update -y
 aws s3 cp s3://myworkwelcome20171212/Websites/web.tar.gz /home/ec2-user/
