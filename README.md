@@ -450,7 +450,7 @@ Predefined Polices
 }
 
 
-S3 CLI Commands
+# Important  S3 CLI Commands
 Help: aws s3 help
 Help on command Level: aws s3 mb
 aws s3 mb s3://anjim2018feb18
@@ -462,7 +462,7 @@ sudo pip install awscli
 pip install --upgrade awscli
 
 
-Local to S3 
+# Local to S3 
 aws s3 ls s3://ac --recurive
 
 aws s3 mb s3://chenat2018 --region us-west-1
@@ -473,17 +473,16 @@ aws s3 ls s3://myworkwelcome20171212
 aws s3 rb s3://welcomedev-driramsri-15022019
 aws s3 rm s3://myworkwelcome20171212/sriramsri_old.pem
  
-S3 to Local
+# S3 to Local
  aws s3 mv s3://myworkwelcome20171212/sriramsri_old.pem .
  aws s3 rm s3://myworkwelcome20171212/sriramsri_old.pem
  
  
- Single Local File and S3 Object Operations
+ # Single Local File and S3 Object Operations
   cp
   mv
   rm
-  
-  Directory and S3 Prefix Operations
+  # Directory and S3 Prefix Operations
   sync
   rb
   mb
