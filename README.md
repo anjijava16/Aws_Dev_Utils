@@ -376,8 +376,80 @@ Groups:->> Create New Group
 Policies ===>
 
 
+
+
 # Policy Generaor : 
 https://awspolicygen.s3.amazonaws.com/policygen.html
+
+# Policy Generaor : 
+https://awspolicygen.s3.amazonaws.com/policygen.html
+
+https://policysim.aws.amazon.com/home/index.jsp?#
+
+
+https://awspolicygen.s3.amazonaws.com/policygen.html
+
+# Week3 (SNS,CloudWatch,CouldTrail)
+SNS :Simple Notification Service
+===================================
+Sending Notification to the Customer
+Below alrt Messages:
+ i) Server Down
+ ii) Bucket Deleted
+It is not free service : It is bit commerical
+aws.amazon.com/sns/pricing
+
+Topic: Publish to Topic
+Create New Topic:EC2BillInfo
+Display Name: BillINFoDEsc
+
+Create Publish Subcription :==> SNS Type 
+  Email
+  JSON
+  SMS
+  HTTP
+
+
+EC2/Bill/S3 <<===SNS ==>>JSON/EMail/HTTP/HTTPS/SMS/AWS_Lambda
+
+
+======================================
+CloudWatch 
+
+Alaram 
+  execeed $10USD
+
+CloudWatch ==> Dashboards
+ CloudWatch 2 main Components
+  1)Dashboards
+  2)Alarm
+    Alaram  3 status
+           a)ALARM
+           b)InSUFFICENT
+           c)OK
+
+  3) Events
+         Events Buses
+  4 ) Logs (Welcome to CloudWatch Logs)
+  5)Metrics 
+
+  ==>Create Dashboard ==> What kind of graph==> What kind of services ==>
+
+Events: ==> Create Rule 
+    
+Create Rule  == i) Event Pattern  ii) Schedule
+
+Events Buses==Giviing rules other accounts
+
+Logs ==>Create Logs
+     CreateLogStreams 
+
+Metrics ==> 
+
+Cloud Trail
+  Dashboard
+ Event History(Application Hisotry last 90 Days)
+  Trail (Create Custom Logs)
 
 =============================================================================
 
