@@ -463,33 +463,32 @@ pip install --upgrade awscli
 
 
 # Local to S3 
-aws s3 ls s3://ac --recurive
-
-aws s3 mb s3://chenat2018 --region us-west-1
-
-aws s3 cp sriram.perm s3://mywelcme
-
-aws s3 ls s3://myworkwelcome20171212
-aws s3 rb s3://welcomedev-driramsri-15022019
-aws s3 rm s3://myworkwelcome20171212/sriramsri_old.pem
+1:: aws s3 ls s3://ac --recurive
+2:: aws s3 mb s3://chenat2018 --region us-west-1
+3::aws s3 cp sriram.perm s3://mywelcme
+4::aws s3 ls s3://myworkwelcome20171212
+5::aws s3 rb s3://welcomedev-driramsri-15022019
+6::aws s3 rm s3://myworkwelcome20171212/sriramsri_old.pem
  
 # S3 to Local
- aws s3 mv s3://myworkwelcome20171212/sriramsri_old.pem .
- aws s3 rm s3://myworkwelcome20171212/sriramsri_old.pem
+ 1 :: aws s3 mv s3://myworkwelcome20171212/sriramsri_old.pem .
+ 2 ::aws s3 rm s3://myworkwelcome20171212/sriramsri_old.pem
  
  
  # Single Local File and S3 Object Operations
-  cp
-  mv
-  rm
+    1:: cp
+    2:: mv
+    3:: rm
   # Directory and S3 Prefix Operations
-  sync
-  rb
-  mb
-  ls
-  aws s3 cp /tmp/foo/ s3://bucket/ --recursive --exclude "*" --include "*.jpg"
-  
-  aws s3 cp /tmp/foo/ s3://bucket/ --recursive    --exclude "*" --include "*.jpg" --include "*.txt"
+  1:: sync
+  2:: rb
+  3:: mb
+  4:: ls
+ 
+ 
+ #Recurise 
+   1:: aws s3 cp /tmp/foo/ s3://bucket/ --recursive --exclude "*" --include "*.jpg"
+   2:: aws s3 cp /tmp/foo/ s3://bucket/ --recursive    --exclude "*" --include "*.jpg" --include "*.txt"
   
   ========================================================
   
