@@ -452,6 +452,17 @@ Cloud Trail
   Trail (Create Custom Logs)
 
 =============================================================================
+# S3 & VPC (Week4)
+
+aws s3 ?
+aws iam ?
+aws ec2 ?
+
+aws iam create-user --user-name ravi
+aws ec2 create-key-pair  --key-name winKey
+aws s3 ls
+
+
 
 AWSAccessKeyId=AKIAJ4TTQPWNHRAVGFEAZZZ
 AWSSecretKey=ryjOAU0GVXagdDigiYlj1DqCDDDFjlCtr2uznYu1C67
