@@ -1,0 +1,220 @@
+  MINIO
+==================================================
+Faizal Khan
+Ecomm India Cloud IT
+
+Before VPC:
+VPN
+Direct Connect
+Regions,Avaiblityzones etc..
+Network: Routers ,IPs etc
+
+Login AWS
+
+Login VPN
+
+Logical Network : VPC
+
+
+
+
+VPC: (Logical separated)
+Create user defiendd virtual networks(IPV4/IPV6)
+Allows controll of the networking enviornemnt
+AWS Cloud -->VPC 
+
+Subnetworks --> Small chunks 
+ApplicationServer Subnets private
+Database Server Subnets private
+WebServer Subnets Public
+
+
+router is connecting differetnt Subnets
+  VPC Architecure
+  AWS
+     region
+            VPC
+                   Public Subnet PrivaeSubnet privateSubnet/PublicSubnet
+
+
+Subnet : Must be one aviable zone 
+
+
+Subnet:Breaks multiple privte or public but must be one Zone
+
+RouteTable & Router
+
+Router:it is looking 
+Routetable:
+
+ElasticIP & ElasticNetwork Interface
+ElasticIP: Static perment IP/Public
+
+
+
+
+InternetGateWay: 
+
+User -->InternetWay --->VPC --Public Subnet
+
+
+CustomerGateway & VPN Connection & Virtual Private Gateway
+VPC Peering --> 
+VPC Endpoints
+NAT Gateway
+
+
+IP Address & Subnets
+192.168.100.201
+
+Octet=8 bits
+11000000.10100100.011000.11001001
+32 bits
+
+
+Note: IPV6 128 Bits 
+
+IP CIDR Range:10.0.0.0/16 ( this represents)
+ 2 digits change 
+ 10.0.0.0 - 10.0.255.255
+10.0.0.0/24
+10.0.0.0--> 10.0.0.255
+
+192.168.16.39/32
+
+
+Subnet Caclutor ?
+
+
+private IP Address
+
+RFC1918 Standard
+10.0.0.0 --10.255.255.255(10/8 Prefix)
+172.16.0.0 172 (10/12 Prefix)
+192.168.0.0
+
+
+
+10.0.0.0 Network Address
+10.0.0.1 VPC Router
+0.2 Reserved by AWS dnS Server
+0.3 Future use
+0.255 Network broadcast address 
+
+
+Subnets 10.0.0.0/16
+Aviablity Zone-1a 
+
+
+Routing:
+
+VPC --> 10.0.0.0/16
+
+10.0.1.0/24
+
+Public Route Table (Source & Destincation)
+Private Route Table 
+
+
+NAT: GateWay
+
+
+VPC EndPoints
+
+VPC --Subnets -->InterGateWay --->VPC Endpoint (VPCE)---> S3
+
+VPC Interface Endpoints
+
+KMS 
+ELB API 
+Service Catalog
+EC2 Systems Manager
+
+
+NACL & Security groups(Firewall)
+
+NACL'S==> In & outb boud : Subnet Level 
+Secuirty Groups ==>resource Levles
+Security Outbound is allowed  & all inbound is denied (Then open port it will allowed)
+
+
+NACL : We need to specific Both In/Out   and also specific allow/deniy
+
+
+
+   
+Create VPC:
+Name: AWSTest
+CiDR: 10.0.0.1/16
+IPV6 : NO
+Tenancy: Default
+ Done
+
+
+VPC Done
+
+Create Subnets: 
+  ===> 4 Subnets
+  Click Subnets --> CreateSub--
+  Name: public-A
+  VPC: Name
+ IPV4: 10.0.0.1/24
+
+  Name: public 
+
+InterNetGateWay:
+   Name: test-idw
+ Attach -- VPC
+
+Allways Default Routes
+
+
+Create Route table:
+    private one
+    public one
+
+
+Jump host
+
+
+New VPC
+
+172.16.0.0/16
+
+VPC
+VPC ID
+Subnets
+traceout 172.16.1.39
+
+VPN-IPSec
+Secure Private Connectivity Over the Internet 
+Static VPN
+	Create Router 
+Dynamic VPN
+BGP (Broad Of GateWay Protocal)
+
+Resillient Dynamic VPN
+Resillient Dynamic VPN -Mutliple VPCS
+
+Direct Connect:
+  Dedicated Network Connection to Aws
+  Estaiblish a private,dedicated newtork connection toAwS
+
+Amazon CloudFront Edge Location
+
+
+www.ecomm.in/training
+dis
+
+awsdiscuss.com
+discussaws.com
+
+
+
+
+
+
+
+
+
+
