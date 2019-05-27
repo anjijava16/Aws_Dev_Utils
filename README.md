@@ -75,20 +75,19 @@ Step 1) sudo su
 vi /etc/ssh/sshd_config
 
  2 changes 
-1)uncommant permitRootLogin(PermitRootLogin yes)
-2)PasswordAu  yes (no to Yes) 
+1)uncommant permitRootLogin(PermitRootLogin yes)  <br/>
+2)PasswordAu  yes (no to Yes)  <br/>
 
 
-Step 2:  Restart the sshd service
+Step 2:  Restart the sshd service  <br/>
 Syntax: service sshd restart
 
 
 
+yum install http* -y  <br/>
+service httpd restart  <br/>
 
-yum install http* -y
-service httpd restart
-
-
+Change Password:  sudo passwd ec2-user  <br/>
 
 Step 4: http URL :
 54.144.181.173
