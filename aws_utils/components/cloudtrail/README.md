@@ -37,5 +37,5 @@ AWS CloudTrail increases visibility into your user and resource activity by reco
 					Data events are often high volume activites 
 					
 # Monitoring 
-           Use CloudWatch Logs to montior log data .Cloud Trail events are sent to cloudwatch logs can trigger alarms accoring to the metric filters you define 
+     1. Use CloudWatch Logs to montior log data .Cloud Trail events are sent to cloudwatch logs can trigger alarms accoring to the metric filters you define 
 		   
