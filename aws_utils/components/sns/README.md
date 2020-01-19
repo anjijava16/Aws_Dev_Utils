@@ -38,6 +38,15 @@ SNS doesn't support forwarding messages to SQS FIFO queues, you can use SNS to f
    With the exectptions of SMS messages ,SNS messages can contains upto 256 KB of text data
    
    
+#SNS vs. SQS
+	Both Messaging Services in AWS
+	SNS - Push
+	SQS - Polls (pulls)
+	Users pay $0.50 per 1 million SNS Requests
+	$0.06 per 100, 000 Notification deliveries over HTTP
+	$0.075 per 100 Notification deliveries over SMS
+	$2.00 per 100,000 Notification deliveries over Email   
+   
  # Security 
   SNS Supports VPC endpoints via AWS privateLink ,you can use VPC endpoint to privately publish messages to SNS Topics from a VPC without travesing the public interest.
 
@@ -53,5 +62,15 @@ SNS doesn't support forwarding messages to SQS FIFO queues, you can use SNS to f
    
    Logging SNS API call using CloudTrail
    
-
+# Quiz 
+	SNS is pull based rather than push based?
+	False
+	Which of these is a protocol NOT supported by SNS;
+	FTP
+	Messages cannot be customised for each protocol used in SNS?
+	False
+	You have a list of subscribers email addresses that you need to push emails out to on a periodic basis. What do you subscribe them to?
+	A Topic
+	You can use SNS in conjunction with SQS to fan a single message out to multiple SQS queues.
+	True
 
