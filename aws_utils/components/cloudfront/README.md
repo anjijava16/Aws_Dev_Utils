@@ -1,18 +1,20 @@
 #AWS Developer UTILS(Bigdata,ML and Web Utils)
 
 
-URL 		 : http://dev3in7xjtpgn.cloudfront.net/
-BucketName	 : mmtechsoft2020
-Bucket URL   : http://mmtechsoft2020.s3-website.us-east-2.amazonaws.com/
-Home page 	 : index.html
-Error Page   : error.html
-Process Page : process.html
+1.	URL 		 : http://dev3in7xjtpgn.cloudfront.net/
+2.	BucketName	 : mmtechsoft2020
+3.	Bucket URL   : http://mmtechsoft2020.s3-website.us-east-2.amazonaws.com/
+4.	Home page 	 : index.html
+5.	Error Page   : error.html
+6.	Process Page : process.html
 
 
 # Amazon CloudFront
+
   1. Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment. CloudFront is integrated with AWS – both physical locations that are directly connected to the AWS global infrastructure, as well as other AWS services. CloudFront works seamlessly with services including AWS Shield for DDoS mitigation, Amazon S3, Elastic Load Balancing or Amazon EC2 as origins for your applications, and Lambda@Edge to run custom code closer to customers’ users and to customize the user experience. Lastly, if you use AWS origins such as Amazon S3, Amazon EC2 or Elastic Load Balancing, you don’t pay for any data transferred between these services and CloudFront.
   2. You can get started with the Content Delivery Network in minutes, using the same AWS tools that you're already familiar with: APIs, AWS Management Console, AWS CloudFormation, CLIs, and SDKs. Amazon's CDN offers a simple, pay-as-you-go pricing model with no upfront fees or required long-term contracts, and support for the CDN is included in your existing AWS Support subscription.
   3. Amazon CloudFront provides a simple API that lets you:   Distribute content with low latency and high data transfer rates by serving requests using a network of edge locations around the world.Get started without negotiating contracts and minimum commitments.
+
 # Create a CDN:
 # # Lab:
 	Create bucket in a region far away from your current location (other side of the globe)
@@ -23,6 +25,7 @@ Process Page : process.html
 	We are going to use this S3 bucket as an origin for our CloudFront Distribution
 
 # Two types of Cloud Front Distributions:
+
     1. Web -> HTTP, .html, .css etc.
 	2. RTMP -> Adobe flash media servers RTMP. Used specifically for streaming videos.
 
