@@ -1,4 +1,4 @@
-#AWS Developer UTILS(Bigdata,ML and Web Utils)
+# AWS Developer UTILS(Bigdata,ML and Web Utils)
 
 # CloudTrail: Auditing && LOgging
 
@@ -28,5 +28,14 @@ AWS CloudTrail increases visibility into your user and resource activity by reco
   3. By default cloud trail event log files are encrypted using amazon s3 server side encryption .You can also choose to encrypt your log fils with AWS key Management Service Key
   4. You can store your log files in your S3 Bucket for as long as you want and also define S3 Lifecycle rules to archive or purge or delete log files automtically
   5. CloudTrail publishes log files about every 5 minutes 
-  2. Deliver logs to an Amazon S3 bucket. CloudTrail events can be processed by one trail for free. 
-  2. 
+  6. Deliver logs to an Amazon S3 bucket. CloudTrail events can be processed by one trail for free. 
+  7. Events:
+                 Management Events: Logged by default 
+				 Data Events:
+				    Not by default 
+					Data events provide into the resource operations perfomred on or in a resource also know as data plane operations
+					Data events are often high volume activites 
+					
+# Monitoring 
+           Use CloudWatch Logs to montior log data .Cloud Trail events are sent to cloudwatch logs can trigger alarms accoring to the metric filters you define 
+		   
