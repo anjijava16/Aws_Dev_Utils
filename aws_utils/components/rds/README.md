@@ -26,6 +26,17 @@ Each field contains the same type.
 #. OLTP vs OLAP
 	Online Transaction Processing (OLTP) differs from OLAP Online Analytics Processing (OLAP) in terms of the types of queries run.
 
+# Security  Groups 
+   i.	DB Secuirty Groups
+   ii.  VPC Security Groups
+   iii.  EC2 Security Groups 
+   
+# Amazon RDS Read Replicas    
+ Amazon RDS Read Replicas provide enhanced performance and durability for database (DB) instances. This feature makes it easy to elastically scale out beyond the capacity constraints of a single DB instance for read-heavy database workloads. You can create one or more replicas of a given source DB Instance and serve high-volume application read traffic from multiple copies of your data, thereby increasing aggregate read throughput. Read replicas can also be promoted when needed to become standalone DB instances. Read replicas are available in Amazon RDS for MySQL, MariaDB, PostgreSQL and Oracle as well as Amazon Aurora.  
+ 
+ Amazon RDS uses the MariaDB, MySQL, Oracle, and PostgreSQL DB engines' built-in replication functionality to create a special type of DB instance called a Read Replica from a source DB instance. Updates made to the source DB instance are asynchronously copied to the Read Replica. You can reduce the load on your source DB instance by routing read queries from your applications to the Read Replica. Using Read Replicas, you can elastically scale out beyond the capacity constraints of a single DB instance for read-heavy database workloads.
+ 
+ 
 14.3.1. OLTP Example:
 Order number 2120121 Pulls up a row of data such as Name, Date, Address to Deliver to, Delivery Status etc.
 
