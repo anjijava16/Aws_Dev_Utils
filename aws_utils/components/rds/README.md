@@ -26,10 +26,26 @@ Each field contains the same type.
 #. OLTP vs OLAP
 	Online Transaction Processing (OLTP) differs from OLAP Online Analytics Processing (OLAP) in terms of the types of queries run.
 
+# Relation Database Service – RDS Overview
+	Amazon Relational Database Service (RDS) is a web service that makes it easier to set up, operate, and scale a relational database in the cloud.
+	RDS provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks.
+	RDS features & benefits
+	CPU, memory, storage, and IOPS can be scaled independently.
+	manages backups, software patching, automatic failure detection, and recovery.
+	automated backups can be performed as needed, or manual backups can be triggered as well. Backups can be used to restore a database, and the RDS restore process works reliably and efficiently.
+	provides high availability with a primary instance and a synchronous secondary instance that can be failovered to seamlessly when a problem occurs.
+	provides elasticity & scalability by enabling MySQL, MariaDB, or PostgreSQL Read Replicas to increase read scaling.
+	supports MySQL, MariaDB, PostgreSQL, Oracle, Microsoft SQL Server, and the new, MySQL-compatible Amazon Aurora DB engine
+	in addition to the security in the database package, IAM users and permissions can help to control who has access to the RDS database service
+	databases can be further protected by putting them in a VPC, using SSL for data in transit and encryption for data in rest
+	However, as it is a managed service, shell (root ssh) access to DB instances is not provided, and this restricts access to certain system procedures and tables that require advanced privileges.
+	RDS Components
 # Security  Groups 
    i.	DB Secuirty Groups
    ii.  VPC Security Groups
    iii.  EC2 Security Groups 
+   
+   
    
 # Amazon RDS Read Replicas    
  Amazon RDS Read Replicas provide enhanced performance and durability for database (DB) instances. This feature makes it easy to elastically scale out beyond the capacity constraints of a single DB instance for read-heavy database workloads. You can create one or more replicas of a given source DB Instance and serve high-volume application read traffic from multiple copies of your data, thereby increasing aggregate read throughput. Read replicas can also be promoted when needed to become standalone DB instances. Read replicas are available in Amazon RDS for MySQL, MariaDB, PostgreSQL and Oracle as well as Amazon Aurora.  
