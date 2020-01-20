@@ -1,6 +1,7 @@
 # AWS Developer UTILS(Bigdata,ML and Web Utils)
 
-# Lambda
+# Lambda: Server less based architectures .
+
 	AWS Lambda is a compute service where you can upload your code and create a Lambda function. 
 	AWS Lambda takes care of provisioning and managing the servers that you use to run the code. 
 	You don’t have tow orry about operting systems, patching, scaling, etc.

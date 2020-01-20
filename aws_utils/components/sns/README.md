@@ -42,7 +42,7 @@ SNS doesn't support forwarding messages to SQS FIFO queues, you can use SNS to f
 	Both Messaging Services in AWS
 	SNS - Push
 	SQS - Polls (pulls)
-	Users pay $0.50 per 1 million SNS Requests
+	Users pay $0.50 per 1 million SNS Request
 	$0.06 per 100, 000 Notification deliveries over HTTP
 	$0.075 per 100 Notification deliveries over SMS
 	$2.00 per 100,000 Notification deliveries over Email   
