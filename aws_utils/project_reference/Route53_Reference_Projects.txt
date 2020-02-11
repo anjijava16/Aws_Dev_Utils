@@ -1,0 +1,51 @@
+Route53_Reference_Projects
+
+us-east-1 Region
+User --> Route 53 --> ELB --> Instance1 
+                      ELB --> Instance2
+					  
+
+http://myelb-18238w88.us-east-1.elb.amazonaws.com
+
+Mumbai Region 					  
+User --> Route 53 --> ELB --> Instance1 
+http://mmumbaielb-18238w88.us-east-1.elb.amazonaws.com
+              
+			  
+
+User ---> Route 53 --> CloudFront ---> S3 Bucket with Website 
+
+Cloud Front <--- Certficiate Manager 
+
+
+
+Routing Policys :
+  i.Simple
+  ii. Weighted
+  iii.Latency
+  iv.Failover
+  v.Geolocation
+  
+  
+  
+  
+  
+Twitter---> Kinsesis-->S3----1
+
+KDG---> Kinssis Analytics/FireHouse --->S3  ---->main01
+
+S3 --->Aws Glue --->S3 --->---->main02
+
+
+main01  & main02 ----->AWS Athena(Query Tool) ---For UI(Reporting ) AWS Quick Insights
+
+
+
+
+
+
+
+
+
+
+
