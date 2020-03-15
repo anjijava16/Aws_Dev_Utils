@@ -1,0 +1,445 @@
+https://www.youtube.com/watch?v=Ia-UEYYR44s&t=3519s&app=desktop
+
+
+ S3
+🎤 (0:14:42) Introduction
+🎤 (0:16:59) Storage Classes
+🎤 (0:19:17) Storage Class Comparison
+🎤 (0:21:12) Security
+🎤 (0:23:17) Encryption
+🎤 (0:24:41) Data Consistency
+🎤 (0:25:45) Cross-Region Replication
+🎤 (0:26:23) Versioning
+🎤 (0:27:51) Lifecycle Management
+🎤 (0:28:40) Transfer Acceleration
+🎤 (0:29:26) Presigned URLs
+🎤 (0:30:53) MFA Delete
+⌨️ (0:31:50) Follow Along - Create & Delete a Bucket
+⌨️ (0:33:48) Follow Along -  Upload Files & Make Public
+⌨️ (0:36:42) Follow Along - Versioning
+⌨️ (0:42:45) Follow Along - Encryption
+⌨️ (0:44:55) Follow Along - CLI
+⌨️ (0:50:09) Follow Along - Lifecycle Policies
+⌨️ (0:52:42) Follow Along - Cross Region Replication
+⌨️ (0:55:24) Follow Along - Bucket Policies
+📓 (0:58:39) S3 CheatSheet
+
+
+☁️ Snowball
+🎤 (1:05:26) Snowballl
+🎤 (1:07:19) Snowball Edge
+🎤 (1:08:41) Snowmobile
+📓 (1:09:27) CheatSheet
+
+
+☁️ VPC
+🎤 (1:11:08) Introduction
+🎤 (1:11:30) Core Components
+🎤 (1:13:09) Key Features
+🎤 (1:15:15) Default VPC
+🎤 (1:16:38) Default Everywhere IP
+🎤 (1:17:22) VPC Peering
+🎤 (1:18:57) Route Tables
+🎤 (1:19:56) Internet Gateway
+🎤 (1:20:57) Bastions / Jumpbox
+🎤 (1:22:30) Direct Connect
+
+
+☁️ VPC Endpoints
+🎤 (1:23:24) Introduction
+🎤 (1:24:35) Interface Endpoints
+🎤 (1:25:42) Gateway Endpoints
+📓 (1:26:19) Cheatsheet
+
+
+☁️ VPC Flow Logs
+🎤 (1:27:04) Introduction
+🎤 (1:28:13) Log Breakdown
+📓 (1:29:09) Cheatsheet
+
+
+☁️ NACL
+🎤 (1:30:14) Introduction
+🎤 (1:31:52) Use Case
+📓 (1:32:30) Cheat Sheet
+
+
+☁️ Security Groups
+🎤 (1:33:43) Introduction
+🎤 (1:35:26) Use Cases
+🎤 (1:37:45) Limits
+📓 (1:38:39) Cheat Sheet
+
+
+☁️ NAT
+🎤 (1:39:56) Introduction
+🎤 (1:40:42) NAT Instances vs NAT Gateways
+📓 (1:42:45) Cheatsheet
+
+
+☁️ VPC Follow Along
+⌨️ (1:44:30) Create VPC, IGW, Route Tables and Subnets
+⌨️ (1:56:58) Launch an EC2 Instance
+⌨️ (2:02:03) Groups, NACL and Bastion
+⌨️ (2:14:59) NAT
+⌨️ (2:18:24) VPC Endpoints
+⌨️ (2:22:33) Flow Logs
+⌨️ (2:25:24) Cleanup
+
+
+☁️ IAM
+🎤 (2:27:38) Introduction
+🎤 (2:27:51) Core Components
+🎤 (2:30:22) Types of Policies
+🎤 (2:31:22) Policy Structure
+🎤 (2:33:48) Password Policy
+🎤 (2:34:14) Access Keys
+🎤 (2:34:59) Multi-Factor Authentication
+⌨️ (2:35:47) Follow Along
+📓 (2:50:37) Cheat Sheet
+
+
+☁️ Cognito
+🎤 (2:52:30) Introduction
+🎤 (2:53:12) Web Identity Federation
+🎤 (2:54:17) User Pools
+🎤 (2:56:19) Identity Pools
+🎤 (2:57:32) Sync
+📓 (2:58:12) Cheat Sheet
+
+
+☁️ AWS CLI & SDK
+🎤 (2:59:30) Command Line Interface (CLI)
+🎤 (3:00:59) Software Development Kit (SDK)
+🎤 (3:02:08) Programmatic Access
+⌨️ (3:03:17) Follow Along - Cloud 9 and CLI Setup
+⌨️ (3:07:57) Follow Along -  CLI
+⌨️ (3:12:31) Follow Along -  SDK
+📓 (3:20:41) CLI & SDK Cheat Sheet
+
+
+☁️ DNS
+🎤 (3:21:46) Introduction
+🎤 (3:22:35) Internet Protocol (IP)
+🎤 (3:24:03) Domain Registrars
+🎤 (3:25:06) Top-Level Domains
+🎤 (3:26:06) Start of Authority (SOA)
+🎤 (3:27:11) A Records
+🎤 (3:27:52) CNAME Records
+🎤 (3:28:36) NS Records
+🎤 (3:29:29) Time To Live (TTL)
+📓 (3:30:00) Cheat Sheet
+
+
+☁️ Route 53
+🎤 (3:31:36) Introduction
+🎤 (3:32:24) Use Case
+🎤 (3:33:32) Record Sets
+🎤 (3:25:05) Routing Policies
+🎤 (3:36:19) Simple Routing Policies
+🎤 (3:37:13) Weighted Routing Policies
+🎤 (3:38:15) Latency Based Routing
+🎤 (3:39:23) Failover Routing Policies
+🎤 (3:40:32) Geolocation Routing Policies
+🎤 (3:41:05) Geoproximity Routing Policies
+🎤 (3:42:57) Multi-Value Answer Policies
+🎤 (3:43:25) Health Checks
+🎤 (3:44:30) Resolver
+📓 (3:45:07) Cheat Sheet
+
+
+☁️ EC2
+🎤 3:47:14)  Introduction
+🎤 3:48:48)  Instance Types
+🎤 3:50:52)  Instance Sizes
+🎤 3:51:42)  Instance Profiles
+🎤 3:53:01)  Placement Groups
+🎤 3:54:31)  Userdata
+🎤 3:55:26)  Metadata
+📓 3:56:12)  EC2 Cheat Sheet
+
+
+☁️ EC2 - Pricing
+🎤 (3:48:05) Introduction
+🎤 (3:58:23) On-Demand Instances
+🎤 (3:58:59) Reserved Instances
+🎤 (4:01:32) Spot Instances
+🎤 (4:03:17) Dedicated Host Instances
+📓 (4:04:49) EC2 Pricing Cheat Sheet
+
+
+☁️ AMI
+🎤 (4:07:40) Introduction
+🎤 (4:08:51) Use Cases
+🎤 (4:10:08) Marketplace
+🎤 (4:11:00) Create an AMI
+🎤 (4:11:19) Choosing an AMI
+🎤 (4:13:21) Coping an AMI
+📓 (4:13:46) AMI Cheat Sheet
+
+
+☁️ Auto Scaling Groups
+🎤 (4:15:13) Introduction
+🎤 (4:15:51) Capacity Settings
+🎤 (4:17:02) Health Check Replacements
+🎤 (4:18:23) Scaling Policies
+🎤 (4:20:12) ELB Integration
+🎤 (4:21:03) Use Case
+🎤 (4:22:05) Launch Configuration
+📓 (4:23:36) Autoscaling Groups Cheat Sheet
+
+
+☁️ ELB
+🎤 (4:25:04) Introduction
+🎤 (4:25:52) Rules of Traffic
+🎤 (4:28:03) Application Load Balancer (ALB)
+🎤 (4:28:54) Network Load Balancer (NLB)
+🎤 (4:29:25) Classic Load Balancer (CLB)
+🎤 (4:30:27) Sticky Sessions
+🎤 (4:21:24) X-Forwarded-For Header
+🎤 (4:32:21) Health Checks
+🎤 (4:33:23) Cross-Zone Load Balancing
+🎤 (4:34:17) Request Routing
+📓 (4:35:28) ELB Cheat Sheet
+
+
+☁️ EC2 Follow Along
+⌨️ (4:37:17) Launching an Instance
+⌨️ (4:47:25) SSH Into Instance
+⌨️ (4:53:47) Encrypted Snapshots
+⌨️ (4:57:44) Creating an AMI
+⌨️ (5:02:19) Working with ASGs
+⌨️ (5:26:05) Register a Domain
+
+
+☁️ (Elastic) File System (EFS)
+🎤 (5:29:44) Introduction
+⌨️ (5:41:01) Mounting EFS
+📓 (5:49:50) EFS Cheat Sheet
+
+
+☁️ (Elastic) Block Store (EBS)
+🎤 (5:50:37) Introduction
+🎤 (5:52:23) Volume Types
+🎤 (5:55:15) Medium HDD
+🎤 (5:56:27) Medium SSD
+🎤 (5:57:08) Magnetic Tapes
+🎤 (5:57:50) Moving Volumes
+🎤 (5:58:44) Encrypted Root Volumes
+🎤 (6:00:05) EBS vs Instance Store Volumes
+📓 (6:02:27) EBS Cheat Sheet
+
+
+☁️ CloudFront
+🎤 (6:04:05) Introduction
+🎤 (6:05:20) Core Components
+🎤 (6:06:24) Distributions
+🎤 (6:08:52) Lambda@Edge
+🎤 (6:10:25) Protection
+⌨️ (6:12:31) Create a Distribution
+⌨️ (6:16:18) Serve S3 Files From Distribution
+⌨️ (6:19:26) Create an Invalidation
+📓 (6:21:02) CloudFront Cheat Sheet
+
+
+
+Course Contents - PART 2 ⭐
+☁️ RDS
+🎤 (6:23:16) Introduction
+🎤 (6:23:55) Encryption
+🎤 (6:24:37) Backups
+🎤 (6:26:02) Restoring Backups
+🎤 (6:26:57) Multi-AZ
+🎤 (6:27:57) Read Replicas
+🎤 (6:28:56) Multi-AZ vs Read Replicas
+⌨️ (6:30:19) Follow Along - Create an Instance
+⌨️ (6:41:42) Follow Along - Performance Insights
+⌨️ (6:43:11) Follow Along - Reserved Instances
+⌨️ (6:45:38) Follow Along - Working with Snapshots
+⌨️ (6:52:35) Follow Along - Aurora Serverless
+📓 (7:00:11) RDS Cheat Sheet
+
+
+☁️ Aurora
+🎤 (7:02:14) Introduction
+🎤 (7:03:12) Scaling
+🎤 (7:03:45) Availability
+🎤 (7:04:16) Fault Tolerance & Durability
+🎤 (7:04:39) Replicas
+🎤 (7:05:17) Serverless
+📓 (7:06:56) Aurora Cheat Sheet
+
+
+☁️ Redshift
+🎤 7:07:58 Redshift
+
+
+☁️ DynamoDB
+🎤 (7:19:37) Introduction
+🎤 (7:21:36) Table Structure
+🎤 (7:22:13) Consistent Reads
+📓 (7:23:54) DynamoDB Cheat Sheet
+
+
+☁️ CloudFormation
+🎤 (7:25:04) Introduction
+🎤 (7:27:03) Template Formats
+🎤 (7:27:50) Template Anatomy
+🎤 (7:30:50) QuickStarts
+📓 (7:31:40) CloudFormation Cheat Sheet
+
+
+☁️ CloudWatch
+🎤 (7:33:34) Introduction
+🎤 (7:34:12) CloudWatch Logs
+🎤 (7:35:24) CloudWatch Metrics
+🎤 (7:36:16) CloudWatch Events
+🎤 (7:37:09) Custom Metrics
+🎤 (7:38:25) CloudWatch Alarms
+🎤 (7:39:10) CloudWatch Dashboards
+🎤 (7:39:43) Availability
+🎤 (7:40:42) Agent & Host Level Metrics
+⌨️ (7:41:47) CloudWatch Follow Along
+📓 (7:51:56) CloudWatch Cheat Sheet
+
+
+☁️ CloudTrail
+🎤 (7:54:07) Introduction
+🎤 (7:55:37) Event History
+🎤 (7:56:26) Trail Options
+🎤 (7:57:23) CloudTrail to CloudWatch
+🎤 (7:57:58) Management vs Data Events
+⌨️ (7:59:15) Follow Along - CloudTrail Overview
+⌨️ (8:00:17) Follow Along - Create a Trail
+⌨️ (8:03:28) Follow Along - CloudTrail to CloudWatch
+⌨️ (8:04:02) Follow Along - Athena
+📓 (8:06:30) CloudTrail Cheat Sheet
+
+
+☁️ Lambda
+🎤 (8:07:52) Introduction
+🎤 (8:09:02) Use Cases
+🎤 (8:10:30) Triggers
+🎤 (8:11:38) Pricing
+🎤 (8:13:05) Interface
+🎤 (8:14:15) Defaults and Limits
+🎤 (8:16:22) Cold Starts
+📓 (8:18:16) Lambda Cheat Sheet
+
+
+☁️ SQS
+🎤 (8:19:47) Introduction
+🎤 (8:22:40) Use Case
+🎤 (8:23:39) Limits & Retention
+🎤 (8:24:38) Queue Types
+🎤 (8:25:50) Visibility Timeout
+🎤 (8:27:12) Short vs Long Polling
+📓 (8:28:30) SQS Cheat Sheet
+
+
+☁️ SNS
+🎤 (8:30:36) Introduction
+🎤 (8:33:40) Topics
+🎤 (8:34:29) Subscriptions
+🎤 (8:36:15) Application As Subscriber
+📓 (8:37:01) Cheat Sheet
+
+
+☁️ ElastiCache
+🎤 (8:38:40) Introduction
+🎤 (8:40:50) Caching Comparison
+📓 (8:42:21) ElastiCache Cheat Sheet
+
+
+☁️ High Availability (HA)
+🎤 (8:43:03) High Availability (HA)
+🎤 (8:46:26) Scale Up and Scale Out
+
+
+☁️ Elastic Beanstalk
+🎤 (8:47:35) Introduction
+⌨️ (8:49:33) Follow Along - Overview
+⌨️ (8:50:35) Follow Along - Prepare Archive
+⌨️ (8:54:32) Follow Along - Upload Archive
+⌨️ (8:56:36) Follow Along - Create a Web App
+⌨️ (9:01:11) Follow Along - Cleanup
+📓 (9:02:49) Cheat Sheet
+
+
+☁️ API Gateway
+🎤 (9:03:46) Introduction
+🎤 (9:04:58) Key Features
+🎤 (9:05:34) Configuration Part
+🎤 (9:09:35) Caching
+🎤 (9:10:09) CORS
+🎤 (9:11:36) Same Origin Policy
+📓 (9:12:41) Cheat Sheet
+
+
+☁️ Kinesis
+🎤 (9:14:49) Introduction
+🎤 (9:15:35) Data Streams
+🎤 (9:17:06) Firehose
+🎤 (9:18:55) Video Streams
+🎤 (9:19:41) Data Analytics
+📓 (9:20:26) Cheat Sheet
+
+
+☁️ Storage Gateway
+🎤 (9:22:25) Introduction
+🎤 (9:23:41) File Gateway
+🎤 (9:24:34) Volume Gateway
+🎤 (9:27:36) Tape Gateway (VTL)
+📓 (9:28:52) Cheat Sheet
+
+
+☁️ Serverless Follow Along
+⌨️ (9:30:09) Follow Along - Overview
+⌨️ (9:30:38) Follow Along - Setup Bucket
+⌨️ (9:34:45) Follow Along - SNS
+⌨️ (9:37:27) Follow Along - DynamoDB
+⌨️ (9:39:44) Follow Along - ACM, CloudFront, Route53
+⌨️ (9:49:48) Follow Along - Cloud 9 and Review Lambda
+⌨️ (9:54:48) Follow Along - Create and Test Lambda
+⌨️ (10:07:29) Follow Along - API Gateway
+⌨️ (10:15:34) Follow Along - Testing Production
+📓 (10:16:55) Follow Along - Cleanup
+
+
+
+
+the Cheat Sheets for those doing last day review (Like me). Thank you for this Course!!
+📓 (0:58:39) S3 
+📓 (1:09:27) Snowball 
+📓 (1:26:19) VPC Endpoints 
+📓 (1:29:09) VPC Flow Logs 
+📓 (1:32:30) NACL 
+📓 (1:38:39) Security Groups 
+📓 (1:42:45) NAT 
+📓 (2:50:37) IAM 
+📓 (2:58:12) Cognito 
+📓 (3:20:41) CLI & SDK 
+📓 (3:30:00) DNS 
+📓 (3:45:07) Route 53 
+📓 3:56:12)  EC2 
+📓 (4:04:49) EC2 Pricing 
+📓 (4:13:46) AMI 
+📓 (4:23:36) Autoscaling Groups 
+📓 (4:35:28) ELB 
+📓 (5:49:50) EFS 
+📓 (6:02:27) EBS 
+📓 (6:21:02) CloudFront 
+📓 (7:00:11) RDS 
+📓 (7:06:56) Aurora 
+📓 (7:23:54) DynamoDB 
+📓 (7:31:40) CloudFormation 
+📓 (7:51:56) CloudWatch 
+📓 (8:06:30) CloudTrail 
+📓 (8:18:16) Lambda 
+📓 (8:28:30) SQS 
+📓 (8:37:01) SNS 
+📓 (8:42:21) ElastiCache 
+📓 (9:02:49) Elastic Beanstalk 
+📓 (9:12:41) API Gateway 
+📓 (9:20:26) Kinesis 
+📓 (9:28:52) Storage Gateway
