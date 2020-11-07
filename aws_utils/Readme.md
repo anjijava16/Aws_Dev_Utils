@@ -1,10 +1,10 @@
-Cloud Formation Link: https://console.aws.amazon.com/cloudformation/home?#/stacks/new?stackName=snowflake-notebook&templateURL=https://snowflake-corp-se-workshop.s3-us-west-1.amazonaws.com/sagemaker-snowflake-devdays-v1.5/sagemaker/snowflake-sagemaker-notebook-v1.5.yaml
+Cloud Formation Link: https://console.aws.amazon.com/cloudformation/home?#/stacks/new?stackName=snowflake-notebook&templateURL=https://snowflake-corp-se-workshop.s3-us-west-1.amazonaws.com/sagemaker-snowflake-devdays-v1.5/sagemaker/snowflake-sagemaker-notebook-v1.5.yaml  <br/>
 
 Jupyter Notebook for SageMaker : https://snowflake-corp-se-workshop.s3-us-west-1.amazonaws.com/sagemaker-snowflake-devdays-v1.5/notebooks/workshop-snowflake-sagemaker-v1.5.ipynb
 
 
 ## 6 Exam Links 
-https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c02/
+https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c02/ <br/>
 https://www.udemy.com/course/aws-certified-developer-associate-exam-training/learn/quiz/4840976#overview
 
 
