@@ -19,9 +19,9 @@ https://www.udemy.com/course/aws-vpc-transit-gateway/learn/lecture/14378428#over
 https://www.udemy.com/course/aws-certified-developer-associate-step-by-step/
 
 ## BigData +Data ( 12.5 total hours)
-https://www.udemy.com/course/aws-big-data/learn/lecture/13894249#overview
-https://www.udemy.com/course/aws-data-analyticsscience-elastic-search-kinesis/learn/lecture/12307756#overview
-https://www.udemy.com/course/aws-big-data/learn/lecture/13891722#overview
+https://www.udemy.com/course/aws-big-data/learn/lecture/13894249#overview <br/>
+https://www.udemy.com/course/aws-data-analyticsscience-elastic-search-kinesis/learn/lecture/12307756#overview <br/>
+https://www.udemy.com/course/aws-big-data/learn/lecture/13891722#overview <br/>
 
 
 ## AWS Solution Arch :
