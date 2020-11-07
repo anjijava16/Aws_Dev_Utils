@@ -35,7 +35,7 @@ https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-
 https://www.udemy.com/course/the-aws-course/learn/lecture/20340661#overview
 
 ## Servless 
-https://www.udemy.com/course/serverless-framework/learn/lecture/19420504#overview
+https://www.udemy.com/course/serverless-framework/learn/lecture/19420504#overview <br/>
 https://www.udemy.com/course/aws-lambda-serverless-architecture/learn/lecture/12903134#overview 
 
 
@@ -57,7 +57,7 @@ https://www.udemy.com/course/the-complete-dynamodb-bootcamp/learn/lecture/146271
 ## DynoDB & DMS
 https://www.udemy.com/course/namrata-h-shah-aws-tutorials-dynamodb-and-database-migration-service/learn/lecture/12963084#overview
 
-##CloudFormation
+## CloudFormation
 https://www.udemy.com/course/aws-cloudformation-basics/learn/lecture/19699238#overview
 
 
@@ -84,9 +84,9 @@ https://github.com/stacksimplify/kubernetes-fundamentals
 )
 
 AWS EKS +Kubernates 
-https://www.udemy.com/course/kubernetes-for-absolute-beginners-on-aws-cloud-part-1/learn/lecture/21190476?src=sac&kw=AWS%20Kube#overview (2 total hours)
+https://www.udemy.com/course/kubernetes-for-absolute-beginners-on-aws-cloud-part-1/learn/lecture/21190476?src=sac&kw=AWS%20Kube#overview (2 total hours) <br/>
 
-https://www.udemy.com/course/kubernetes-for-absolute-beginners-on-aws-cloud-part-2/learn/lecture/21192118?components=purchase%2Ccacheable_buy_button%2Cbuy_button%2Crecommendation#overview  (2 total Hours)
+https://www.udemy.com/course/kubernetes-for-absolute-beginners-on-aws-cloud-part-2/learn/lecture/21192118?components=purchase%2Ccacheable_buy_button%2Cbuy_button%2Crecommendation#overview  (2 total Hours) <br/>
 
 
 
