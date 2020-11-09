@@ -2,6 +2,9 @@ Cloud Formation Link: https://console.aws.amazon.com/cloudformation/home?#/stack
 
 Jupyter Notebook for SageMaker : https://snowflake-corp-se-workshop.s3-us-west-1.amazonaws.com/sagemaker-snowflake-devdays-v1.5/notebooks/workshop-snowflake-sagemaker-v1.5.ipynb
 
+##  Real time streams 
+https://docs.aws.amazon.com/solutions/latest/aws-streaming-data-solution-for-amazon-kinesis/aws-streaming-data-solution-for-amazon-kinesis.pdf
+
 
 ## 6 Exam Links 
 https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c02/ <br/>
